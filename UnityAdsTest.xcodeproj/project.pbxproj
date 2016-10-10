@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0DF37A1DAB3746001EDC64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0DF3791DAB3746001EDC64 /* AppDelegate.swift */; };
+		FD0DF37C1DAB3746001EDC64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0DF37B1DAB3746001EDC64 /* ViewController.swift */; };
+		FD0DF37F1DAB3746001EDC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0DF37D1DAB3746001EDC64 /* Main.storyboard */; };
+		FD0DF3811DAB3746001EDC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0DF3801DAB3746001EDC64 /* Assets.xcassets */; };
+		FD0DF3841DAB3746001EDC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0DF3821DAB3746001EDC64 /* LaunchScreen.storyboard */; };
+		FD0DF38D1DAB38A4001EDC64 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0DF38C1DAB38A4001EDC64 /* UnityAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD0DF3761DAB3746001EDC64 /* UnityAdsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnityAdsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0DF3791DAB3746001EDC64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0DF37B1DAB3746001EDC64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD0DF37E1DAB3746001EDC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0DF3801DAB3746001EDC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0DF3831DAB3746001EDC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD0DF3851DAB3746001EDC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0DF38B1DAB376F001EDC64 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		FD0DF38C1DAB38A4001EDC64 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0DF3731DAB3746001EDC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0DF38D1DAB38A4001EDC64 /* UnityAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0DF36D1DAB3745001EDC64 = {
+			isa = PBXGroup;
+			children = (
+				FD0DF3781DAB3746001EDC64 /* UnityAdsTest */,
+				FD0DF3771DAB3746001EDC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0DF3771DAB3746001EDC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0DF3761DAB3746001EDC64 /* UnityAdsTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0DF3781DAB3746001EDC64 /* UnityAdsTest */ = {
+			isa = PBXGroup;
+			children = (
+				FD0DF38C1DAB38A4001EDC64 /* UnityAds.framework */,
+				FD0DF3791DAB3746001EDC64 /* AppDelegate.swift */,
+				FD0DF37B1DAB3746001EDC64 /* ViewController.swift */,
+				FD0DF37D1DAB3746001EDC64 /* Main.storyboard */,
+				FD0DF3801DAB3746001EDC64 /* Assets.xcassets */,
+				FD0DF3821DAB3746001EDC64 /* LaunchScreen.storyboard */,
+				FD0DF3851DAB3746001EDC64 /* Info.plist */,
+				FD0DF38B1DAB376F001EDC64 /* Bridging-Header.h */,
+			);
+			path = UnityAdsTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0DF3751DAB3746001EDC64 /* UnityAdsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0DF3881DAB3746001EDC64 /* Build configuration list for PBXNativeTarget "UnityAdsTest" */;
+			buildPhases = (
+				FD0DF3721DAB3746001EDC64 /* Sources */,
+				FD0DF3731DAB3746001EDC64 /* Frameworks */,
+				FD0DF3741DAB3746001EDC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnityAdsTest;
+			productName = UnityAdsTest;
+			productReference = FD0DF3761DAB3746001EDC64 /* UnityAdsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0DF36E1DAB3745001EDC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chiboon;
+				TargetAttributes = {
+					FD0DF3751DAB3746001EDC64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9232PFVV6Q;
+					};
+				};
+			};
+			buildConfigurationList = FD0DF3711DAB3745001EDC64 /* Build configuration list for PBXProject "UnityAdsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0DF36D1DAB3745001EDC64;
+			productRefGroup = FD0DF3771DAB3746001EDC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0DF3751DAB3746001EDC64 /* UnityAdsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0DF3741DAB3746001EDC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0DF3841DAB3746001EDC64 /* LaunchScreen.storyboard in Resources */,
+				FD0DF3811DAB3746001EDC64 /* Assets.xcassets in Resources */,
+				FD0DF37F1DAB3746001EDC64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0DF3721DAB3746001EDC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0DF37C1DAB3746001EDC64 /* ViewController.swift in Sources */,
+				FD0DF37A1DAB3746001EDC64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD0DF37D1DAB3746001EDC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0DF37E1DAB3746001EDC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD0DF3821DAB3746001EDC64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0DF3831DAB3746001EDC64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0DF3861DAB3746001EDC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD0DF3871DAB3746001EDC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0DF3891DAB3746001EDC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnityAdsTest",
+				);
+				INFOPLIST_FILE = UnityAdsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.chiboon.UnityAdsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UnityAdsTest/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		FD0DF38A1DAB3746001EDC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnityAdsTest",
+				);
+				INFOPLIST_FILE = UnityAdsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.chiboon.UnityAdsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UnityAdsTest/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0DF3711DAB3745001EDC64 /* Build configuration list for PBXProject "UnityAdsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0DF3861DAB3746001EDC64 /* Debug */,
+				FD0DF3871DAB3746001EDC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0DF3881DAB3746001EDC64 /* Build configuration list for PBXNativeTarget "UnityAdsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0DF3891DAB3746001EDC64 /* Debug */,
+				FD0DF38A1DAB3746001EDC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD0DF36E1DAB3745001EDC64 /* Project object */;
+}
